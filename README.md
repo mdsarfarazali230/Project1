@@ -1,3 +1,11 @@
+#include <stdio.h>
+int main() {
+   // printf() displays the string inside quotation
+   printf("Hello, World!");
+   return 0;
+}
+
+
 # Project1
 
     <div className={min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}}>
