@@ -1,17 +1,5 @@
 # Project1
-"use client"
 
-import { useState } from 'react'
-import { Moon, Sun } from 'lucide-react'
-
-export default function DarkModeWebsite() {
-  const [darkMode, setDarkMode] = useState(false)
-
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode)
-  }
-
-  return (
     <div className={min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}}>
       <div className="container mx-auto px-4 py-8">
         <div className="flex justify-between items-center mb-8">
